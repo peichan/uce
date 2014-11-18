@@ -2,12 +2,14 @@
   <head>
     <meta charset="UTF-8"/>
     <title>ユニティちゃんエスケープ</title>
-    <script src="https://code.jquery.com/jquery.js"></script>
+    <link href="./customize.css" rel="stylesheet"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    <script src="http://malsup.github.io/jquery.cycle2.carousel.js"></script>
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
     <link href="./dist/css/bootstrap-responsive.min.css" rel="stylesheet"/>
-    <link href="./customize.css" rel="stylesheet"/>
   </head>
   <body>
 
@@ -37,6 +39,14 @@
      <div class="container text-center">
        <h1>ユニティちゃんエスケープ</h1>
        <p>ユニティちゃんを操作し、ゴールを目指せ！</p>
+       <div class="cycle-slideshow responsive col-centered" data-cycle-fx="carousel" data-cycle-timeout="3000" data-cycle-carousel-visible="3">
+         <img class="thumbnail" src="./img/demo1.png"/>
+         <img class="thumbnail" src="./img/demo2.png"/>
+         <img class="thumbnail" src="./img/demo3.png"/>
+         <img class="thumbnail" src="./img/demo4.png"/>
+         <img class="thumbnail" src="./img/demo5.png"/>
+         <img class="thumbnail" src="./img/demo6.png"/>
+       </div>
      </div>
    </div>
 

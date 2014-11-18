@@ -2,4 +2,15 @@
     body {
         padding: 40px 0px 0;
     }
+
+    div.cycle-slideshow {
+        data-cycle-carousel-visible: "4"
+    }
+}
+
+div.responsive img { height: auto; max-width: 240px }
+
+.col-centered{
+        float: none;
+        margin: 0 auto;
 }
