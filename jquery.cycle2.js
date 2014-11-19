@@ -684,6 +684,7 @@ $.fn.cycle.defaults = {
 // automatically find and run slideshows
 $(window).load(function() {
     $( $.fn.cycle.defaults.autoSelector ).cycle();
+    $(".cycle-slideshow").show();
 });
 
 })(jQuery);
