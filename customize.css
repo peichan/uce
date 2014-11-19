@@ -2,12 +2,15 @@
     body {
         padding: 40px 0px 0;
     }
+}
 
-    div.responsive {width: 720px}
+@media screen and (min-width: 768px) {
+    div.responsive {width: 360px}
     div.responsive img { height: auto; max-width: 240px }
 }
 
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width: 768px) {
     div.responsive {width: 360px}
     div.responsive img { height: auto; max-width: 120px }
 }
