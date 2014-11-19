@@ -5,14 +5,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    div.responsive {width: 360px}
+    div.responsive {width: 720px}
     div.responsive img { height: auto; max-width: 240px }
 }
 
-
 @media screen and (max-width: 768px) {
-    div.responsive {width: 360px}
-    div.responsive img { height: auto; max-width: 120px }
+    div.responsive {width: 240px}
+    div.responsive img { height: auto; max-width: 240px }
 }
 
 .col-centered{
