@@ -4,6 +4,14 @@
     }
 }
 
+body {
+    background-image: url("./img/back_blue_check.gif")
+}
+
+.well {
+    background: rgba(255, 255, 255, 1);
+}
+
 @media screen and (min-width: 768px) {
     div.responsive {width: 720px}
     div.responsive img { height: auto; max-width: 240px }
