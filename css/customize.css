@@ -4,14 +4,6 @@
     }
 }
 
-body {
-    background-image: url("./../img/back_blue_check.gif")
-}
-
-.well {
-    background: rgba(255, 255, 255, 1);
-}
-
 @media screen and (min-width: 768px) {
     div.responsive {width: 720px}
     div.responsive img { height: auto; max-width: 240px }
@@ -20,6 +12,19 @@ body {
 @media screen and (max-width: 768px) {
     div.responsive {width: 240px}
     div.responsive img { height: auto; max-width: 240px }
+}
+
+body {
+    background-image: url("./../img/back_blue_check.gif");
+}
+
+.well, .jumbotron, .thumbnail {
+    background: rgba(255, 255, 224, 1);
+}
+
+.jumbotron h1, h2 {
+    color: #191970;
+    font-weight: bold;
 }
 
 .col-centered{
