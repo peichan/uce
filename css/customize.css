@@ -19,7 +19,8 @@ body {
 }
 
 .well, .jumbotron, .thumbnail {
-    background: rgba(255, 255, 240, 1);
+    /* background: rgba(255, 255, 240, 1); */
+    background: rgba(240, 248, 255, 1);
 }
 
 .thumbnail {
@@ -29,6 +30,15 @@ body {
 .jumbotron h1, h2 {
     color: #191970;
     font-weight: bold;
+    text-shadow:
+    0 2px 0 #fff,
+    2px 0 0 #fff,
+    0 -2px 0 #fff,
+    -2px 0 0 #fff,
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;
 }
 
 .navbar-inverse {
