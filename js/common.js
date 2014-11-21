@@ -9,5 +9,5 @@ $(function(){
     //     }
     // });
     var header = $("#header")
-    header.load("../header.html")
+    header.load("./header.html")
 });
