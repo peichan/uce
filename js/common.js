@@ -14,6 +14,8 @@ $(function(){
 
 // 今開いているページをactiveに
 function activate_link(){
-    var active_html = "." + location.pathname;
+    var array = location.pathname.slice(1).split("/");
+    var active_html = "./" + array[array.length-1];
+    alert(active_html);
     $('a[href="' + active_html + '"]').parent().addClass("active");
 };
