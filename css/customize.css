@@ -22,6 +22,10 @@ body {
     background: rgba(255, 255, 240, 1);
 }
 
+.thumbnail {
+    border: #fffff0;
+}
+
 .jumbotron h1, h2 {
     color: #191970;
     font-weight: bold;
